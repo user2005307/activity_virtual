@@ -18,10 +18,10 @@ int main() {
         printf("1 is neither prime nor composite.");
     }
     else {
-        if (flag == 0)
-            printf("%d is a prime number.", n);
+        if (flag == 0)//comparision
+            printf("%d is a prime number.", n);//printing the number is prime 
         else
-            printf("%d is not a prime number.", n);
+            printf("%d is not a prime number.", n);//printing the number is not prime
     }
 
     return 0;
