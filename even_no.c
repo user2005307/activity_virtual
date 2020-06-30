@@ -3,7 +3,7 @@
 int main() {
     int n, i, flag = 0;
     printf("Enter a positive integer: ");
-    scanf("%d", &n);
+    scanf("%d", &n); //taking number as nan input
 
     for (i = 2; i <= n / 2; ++i) {
 
@@ -13,7 +13,7 @@ int main() {
             break;
         }
     }
-
+// cheacking the condition 
     if (n == 1) {
         printf("1 is neither prime nor composite.");
     }
