@@ -9,7 +9,7 @@ int main() {
 
         // condition for non-prime
         if ( n%i==0) {
-            flag = 1
+            flag = 1;
             break;
         }
     }
