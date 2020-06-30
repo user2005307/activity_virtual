@@ -1,7 +1,7 @@
 # activity_virtual
 #include <stdio.h>
 int main() {
-    int n, i, flag = 0;
+    int n, flag = 0;
     printf("Enter a positive integer: ");
     scanf("%d", &n); //taking number as nan input
 
@@ -9,7 +9,7 @@ int main() {
 
         // condition for non-prime
         if ( n%i==0) {
-            flag = 1;
+            flag = 1
             break;
         }
     }
@@ -25,4 +25,4 @@ int main() {
     }
 
     return 0;
-}
+
